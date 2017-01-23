@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ocramius git info</string>
+    <string name="toast_help">Touch a repo for more detail</string>
+    <string name="label_repo_name">Name:</string>
+    <string name="label_repo_id">Repo ID:</string>
+    <string name="label_repo_language">Language:</string>
+    <string name="label_repo_updated_at">Updated At:</string>
+    <string name="label_repo_owner_login">Owner Login:</string>
+    <string name="header_title">Ocramius Git Repos</string>
+    <string name="header_description">A code challange app to display information received over the network.  Using URL: https://api.github.com/users/ocramius/repos</string>
+</resources>
