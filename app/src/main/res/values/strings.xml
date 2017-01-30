@@ -8,4 +8,6 @@
     <string name="label_repo_owner_login">Owner Login:</string>
     <string name="header_title">Ocramius Git Repos</string>
     <string name="header_description">A code challange app to display information received over the network.  Using URL: https://api.github.com/users/ocramius/repos</string>
+
+    <string name="ERROR_MESSAGE">ERROR: %1$s</string>
 </resources>

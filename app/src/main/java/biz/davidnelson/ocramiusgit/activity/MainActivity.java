@@ -61,7 +61,9 @@ public class MainActivity extends AppCompatActivity implements OcramiusRepoAdapt
 
             @Override
             public void onFailure(Call<ArrayList<OcramiusRepo>> call, Throwable t) {
-                Log.d("Error",t.getMessage());
+                Log.e("Error",t.getMessage());
+                Toast.makeText(getApplicationContext(), getString(R.string.ERROR_MESSAGE, t.getMessage()),
+                    Toast.LENGTH_LONG).show();
             }
         });
     }
